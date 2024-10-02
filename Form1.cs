@@ -15,7 +15,7 @@ using System.Xml.Linq;
 
 namespace DU_AICP
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         // Spotify API Client ID 및 Secret
         private static readonly string clientId = "27840cda88d14f4dab5dd0f29ea781ff";
@@ -167,5 +167,6 @@ namespace DU_AICP
             }
         }
 
+      
     }
 }

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace DU_AICP
 {
-    public partial class Form2 : Form
+    public partial class Form2 : MetroFramework.Forms.MetroForm
     {
         public Form2(string artist, string inputBPM, string trackName, string spotifyTrackBPM, string chordifyDetails, string albumCoverUrl)
         {
